@@ -1,0 +1,228 @@
+body {
+	background: #ADD8E6 url(image/more.jpg) center no-repeat fixed;
+	background-size: cover;
+}
+
+/*Стили для меню*/
+#menu {
+	background: rgba(255,255,255,.5);
+  box-shadow: 3px 0 7px rgba(0,0,0,.3);
+  /*border: 2px solid #0066FF;*/
+  border-radius: 20px 5px;
+  /*padding: 0;*/
+  padding-left: 15px;
+  line-height: 80px;
+  list-style-type: none;
+  font-size: 25px;
+  font-family: 'Bellota Text', cursive;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: .1em .1em .3em black;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0;
+  margin-bottom: 2em;
+  /*width: 550px;*/
+}
+
+a {
+	text-decoration: none;
+}
+#menu a {
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	/*width: 100px;*/
+}
+#menu a:hover {
+  border-radius: 20px 5px;
+  background-color: #0066FF;
+}
+#menu li {
+	display: inline;
+}
+
+/*Стили для контента*/
+#text {
+	background: rgba(255,255,255,.6);
+	box-shadow: 3px 0 7px rgba(0,0,0,.3);
+	padding: 15px;
+	line-height: 27px;
+	padding-left: 15px;
+	text-align: justify;
+	font-size: 120%;
+	margin-top: 2.5em;
+	/*margin-left: 2em;
+	margin-right: 35em;*/
+	margin-bottom: 10em;
+	padding: 1em 2%;*/
+	margin: 0 2% 1em ;
+	width: 70%;
+	margin-right: 5%;
+	float: left;
+}
+#logo {
+	margin-top: 2em;
+	background: rgba(0,0,255,.155);
+	padding: 5px;
+	font-family: 'Caveat', cursive;
+	font-size: xx-large;
+	border-radius: 20px;
+	text-align: center;
+	margin-bottom: 10em;
+}
+
+/*Подвал сайта*/
+.footer_main {
+    margin-top: 20px;
+	background-image: url(image/landing-bg.jpg);
+	height: 170px; 
+    width: absolute; 
+    background-color: blue;
+	font-family: 'Scada', sans-serif;
+	position: fixed; 
+	bottom: 0; 
+    width: 100%;
+}
+ 
+.footer {
+    width: 1000px;
+    margin:0 auto;
+}
+ 
+.clear_footer,.bem_sitemap {
+    margin-top:19px;
+    margin-left:25px;
+    padding-left:100px;
+    float:left;	
+}
+ 
+.description {
+    width:295px;
+}
+ 
+.tet_header,.footer-title {
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+	color: #C5C5C5;
+	border-color: rgba(0,91,173,.3);
+    font-size:23px;
+    width:100%;
+	letter-spacing: 1px;
+}
+ 
+.btext {
+    margin-top:3px;
+    font-size:14.6px;
+    color:#f5f5f5;
+	list-style-type: none;
+}
+ 
+.glow_undecorate {
+	color: #ffffff;
+	text-shadow: 2px 2px 10px #5ab3f7, -4px 2px 14px #2784d3;
+	margin-top:12px;
+    display:block;
+}
+ 
+.b-footer-logo__copyright {
+    clear:right;
+	text-shadow: 0 0 20px #ff6632, 0 0 30px #ff6632;
+	color: #ffb762 !important;
+	padding-top:8px;
+	font-size:21px;
+    color:#f5f5f5;
+    text-align:right;
+}
+ 
+article .img_preview {
+    max-height: 500px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+article .img_previeww {
+	margin-left: 2em;
+	margin-right: 10em;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	
+	/*max-width: 100%;*/
+}
+article .img_previeww img {
+	width: 650px;
+	height: 500px;
+}
+
+article .img_previe {
+	margin-left: 2em;
+	margin-right: 10em;
+	margin-bottom: 2em;
+}
+
+article .img_previe img {
+	width: 550px;
+	height: 700px;
+}
+
+
+/*#help {
+	background: rgba(255,255,255,.6);
+	box-shadow: 3px 0 7px rgba(0,0,0,.3);
+	padding: 15px;
+	line-height: 19px;
+	padding-left: 15px;
+	text-align: justify;
+	margin-top: 2.5em;
+	width: 25%;
+	float: left;	
+}*/
+
+/*Стили для таблиц*/
+table {
+	width: 100%; 
+	border-collapse: separate; 
+	border-spacing: 6px;
+	font-size: 150%;
+	}
+table thead tr {
+	color: #ffffff; 
+	font-weight: bold;
+	}
+table thead tr td {
+	border-radius: 4px 4px 0 0; 
+	background: #2e82c3;
+	}
+table tbody tr td {
+	border: 1px solid #2e82c3; 
+	border-radius: 4px; 
+	background: #cbdfef;
+	}
+table tbody tr td:hover {
+	background: #a2c3dd; 
+	transition-duration: 0.2s;
+}
+td, th {
+	border: 1px solid #CCC;
+}
+
+<link href="https://fonts.googleapis.com/css?family=Bellota+Text&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
